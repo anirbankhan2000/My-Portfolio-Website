@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  background: #1f1f1f;
+  color: #fff;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+nav ul li a:hover {
+  color: #00adb5;
+}
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #00adb5, #393e46);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero h1 span {
+  color: #ffdd00;
+}
+.btn {
+  background: #ffdd00;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skill {
+  background: #00adb5;
+  color: white;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.project-card {
+  background: #eeeeee;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+footer {
+  background: #1f1f1f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
